@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnata Prime - Assistência Técnica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description"
+        content="Magnata Prime: Assistência Técnica Especializada em Celulares. Troca de tela, conector, câmeras e mais. Rapidez e garantia!">
+</head>
+
+<body class="bg-gradient-to-b from-black to-[#1a1a1a] text-white">
+
+    <!-- Cabeçalho -->
+    <header class="fixed top-0 left-0 w-full z-50 shadow-lg">
+        <!-- Fundo com logo e menus lado a lado -->
+        <!-- Fundo com logo e menus lado a lado (com plano de fundo) -->
+        <div class="relative h-40 bg-cover bg-center flex items-center justify-center px-4"
+            style="background-image: url('imgens/logo.png');">
+            <!-- Camada escura para contraste -->
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
+            <!-- Conteúdo centralizado -->
+            <div class="relative z-10 flex items-center justify-between max-w-6xl w-full mx-auto gap-8">
+                <!-- Logo -->
+                <a href="#top">
+                    <img src="imgens/logo.png" alt="Logo Magnata Prime" class="w-65 h-36 object-contain">
+                </a>
+
+                <!-- Menu navegação -->
+                <nav class="hidden md:flex space-x-8 text-white font-semibold">
+                    <a href="#servicos" class="hover:text-yellow-400">Serviços</a>
+                    <a href="#fotos" class="hover:text-yellow-400">Fotos</a>
+                    <a href="#videos" class="hover:text-yellow-400">Vídeos</a>
+                    <a href="#sobre" class="hover:text-yellow-400">Sobre</a>
+                    <a href="#contato" class="hover:text-yellow-400">Contato</a>
+                </nav>
+
+                <!-- Botão mobile -->
+                <button id="menu-btn" class="md:hidden text-yellow-500 text-3xl">☰</button>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Espaço para empurrar o conteúdo -->
+    <div id="top" class="h-60"></div>
+
+    <!-- Hero / Banner -->
+    <section class="relative py-20 text-center text-white">
+        <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover opacity-50">
+            <source src="imgens/Videobanner.mp4" type="video/mp4">
+        </video>
+
+        <div class="relative z-10">
+            <h2 class="text-4xl font-bold mb-4">Assistência Técnica Especializada em Celulares</h2>
+            <p class="text-lg mb-6">Conserte seu smartphone com rapidez e segurança na Magnata Prime!</p>
+            <a href="#contato"
+                class="bg-yellow-500 text-black px-6 py-3 rounded-full hover:bg-yellow-600 transform hover:scale-105 transition duration-300">Fale
+                Conosco</a>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="max-w-6xl mx-auto py-20 bg-black">
+        <h3 class="text-3xl font-bold text-center mb-12 text-yellow-300">Nossos Serviços</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-[#1a1a1a] p-6 rounded-xl shadow hover:shadow-lg">
+                <h4 class="text-xl font-semibold mb-2 text-yellow-500">Software</h4>
+                <p>Atualizações, remoção de vírus e recuperação do sistema.</p>
+            </div>
+            <div class="bg-[#1a1a1a] p-6 rounded-xl shadow hover:shadow-lg">
+                <h4 class="text-xl font-semibold mb-2 text-yellow-500">Conector de Carga</h4>
+                <p>Substituição e reparo do conector de carga com peças originais.</p>
+            </div>
+
+            <div class="bg-[#1a1a1a] p-6 rounded-xl shadow hover:shadow-lg">
+                <h4 class="text-xl font-semibold mb-2 text-yellow-500">Reparos em Placas</h4>
+                <p>Seu problema técnico resolvido com excelência e profissionalismo e rapidez em cada reparo. Seu
+                    aparelho merece nosso cuidado técnico. Reparos rápidos e confiáveis!</p>
+            </div>
+
+            <div class="bg-[#1a1a1a] p-6 rounded-xl shadow hover:shadow-lg">
+                <h4 class="text-xl font-semibold mb-2 text-yellow-500">Acessórios</h4>
+                <p>Capinhas, películas, carregadores e muito mais.</p>
+            </div>
+            <div class="bg-[#1a1a1a] p-6 rounded-xl shadow hover:shadow-lg">
+                <h4 class="text-xl font-semibold mb-2 text-yellow-500">Tela e Display</h4>
+                <p>Troca de tela e display com qualidade e garantia.</p>
+            </div>
+            <div class="bg-[#1a1a1a] p-6 rounded-xl shadow hover:shadow-lg">
+                <h4 class="text-xl font-semibold mb-2 text-yellow-500">Câmeras</h4>
+                <p>Substituição e reparo das câmeras frontal e traseira.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fotos -->
+    <section id="fotos" class="bg-black py-20">
+        <h3 class="text-3xl font-bold text-center mb-12 text-yellow-300">Fotos dos Nossos Trabalhos</h3>
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+
+            <img src="imgens/img1.jpg" alt="Foto 1" class="rounded-xl shadow hover:scale-105 transition-transform">
+
+            <img src="imgens/img2.jpg" alt="Foto 2" class="rounded-xl shadow hover:scale-105 transition-transform">
+
+            <img src="imgens/img3.jpg" alt="Foto 3" class="rounded-xl shadow hover:scale-105 transition-transform">
+
+        </div>
+
+    </section>
+    <!-- Vídeos -->
+    <section id="videos" class="bg-yellow-500 py-20 text-black">
+        <h3 class="text-3xl font-bold text-center mb-12">Vídeos</h3>
+
+        <div class="max-w-4xl mx-auto grid md:grid-cols-4 gap-4">
+
+            <video class="w-55 h-64 rounded-xl shadow" src="imgens/video1.mp4" autoplay muted loop playsinline></video>
+
+            <video class="w-55 h-64 rounded-xl shadow" src="imgens/video2.mp4" autoplay muted loop playsinline></video>
+
+            <video class="w-55 h-64 rounded-xl shadow" src="imgens/video3.mp4" autoplay muted loop playsinline></video>
+
+            <video class="w-55 h-64 rounded-xl shadow" src="imgens/videoBanner.mp4" autoplay muted loop
+                playsinline></video>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="bg-black py-20">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-6 text-yellow-300">Quem Somos</h3>
+            <p class="text-lg">A Magnata Prime é uma assistência técnica com anos de experiência. Nossa missão é
+                oferecer serviços rápidos, confiáveis e com preços justos para nossos clientes. Garantia de 3 meses e
+                qualidade garantida!</p>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="bg-black py-20">
+        <h3 class="text-3xl font-bold text-center mb-12 text-yellow-300">Entre em Contato</h3>
+        <div class="flex flex-col items-center">
+            <p class="mb-4">📞 (81) 9 8856-8509</p>
+            <p class="mb-4">📍 Endereço: Rua Leonardo Bezerra Cavalcante, 510 - Casa Forte (Ao lado do Shopping Plaza),
+                Recife-PE</p>
+            <a href="https://wa.me/5581988568509" target="_blank"
+                class="bg-yellow-500 text-black px-6 py-3 rounded-full hover:bg-yellow-600 transform hover:scale-105 transition duration-300">Chamar
+                no WhatsApp</a>
+            <!-- Mapa -->
+            <div class="mt-8 w-full max-w-md">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dXXXXXXX!2d-34.901923!3d-8.040288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18bdb42d89d5%3A0x4d1b6bb6b7c321ff!2sRua%20Leonardo%20Bezerra%20Cavalcante%2C%20510%20-%20Casa%20Forte%2C%20Recife%20-%20PE%2C%2052050-020!5e0!3m2!1spt-BR!2sbr!4v1681234567890!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="w-full h-64 rounded-xl">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="formulario" class="bg-black py-20">
+        <h3 class="text-3xl font-bold text-center mb-12 text-yellow-300">Envie uma Mensagem</h3>
+        <div class="max-w-lg mx-auto bg-[#1a1a1a] p-8 rounded-xl shadow-lg">
+            <form action="https://formsubmit.co/magnopaulo11@gmail.com" method="POST" class="space-y-6">
+
+                <!-- Nome -->
+                <div>
+                    <label for="nome" class="block mb-2 text-yellow-300">Seu Nome</label>
+                    <input type="text" id="nome" name="nome" required
+                        class="w-full p-3 rounded-lg bg-black text-white border border-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-500">
+                </div>
+
+                <!-- E-mail -->
+                <div>
+                    <label for="email" class="block mb-2 text-yellow-300">Seu E-mail</label>
+                    <input type="email" id="email" name="email" required
+                        class="w-full p-3 rounded-lg bg-black text-white border border-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-500">
+                </div>
+
+                <!-- Mensagem -->
+                <div>
+                    <label for="mensagem" class="block mb-2 text-yellow-300">Sua Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required
+                        class="w-full p-3 rounded-lg bg-black text-white border border-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-500"></textarea>
+                </div>
+
+                <!-- Botão -->
+                <button type="submit"
+                    class="bg-yellow-500 text-black px-6 py-3 rounded-full hover:bg-yellow-600 transform hover:scale-105 transition duration-300 w-full">
+                    Enviar
+                </button>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-black text-white text-center p-4">
+        © 2025 Magnata Prime. Todos os direitos reservados.
+    </footer>
+
+    <script>
+        // Menu Mobile
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+
+</html>
+s
